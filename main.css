@@ -9,5 +9,13 @@
 
 .container.jumboton,
 .container-fluid.jummbotron{
-	border-radius: 
+	
+}
+
+.logo{
+height: 40px;
+
+}
+.error{
+	color: red;
 }

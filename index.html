@@ -5,48 +5,168 @@
 		<meta name="viewport" content"width=device-width">
 		<title>introduction to bootstrap</title>
 		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+		<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/jquery-ui.css">
 	<link rel="stylesheet" href="main.css">
 	
 	</head>
 
 	<body>
+		<nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"> <img class="img-responsive logo" src="images/logo.jpg"alt="LOBAL SMART SOLUTIONS"></i></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Get intouch with Us</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Insight in Our Daily Work <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Great works</a></li>
+                    <li><a href="#">have amzing look on our bulletin</a></li>
+                    <li><a href="#">what makes ous unique</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Our Core work</li>
+                    <li><a href="#">Our sponsors</a></li>
+                    <li><a href="#">Latest projects contracted</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 		<div class="container-fluid">
 			
 			<section class="row text-center jumbotron" id="pitch">
 				<h1>I build the future ,and it's Awesome!</h1>
 				<a href"#works" class="btn btn-success">check out my projects<a/>
 			</section>
-			<h2 class="text-center">PROJECTS COMPLETED </h2>
+			<h2 class="text-center">PROJECTS</h2>
 
 		</div>
-		<div class="container">
+		<div class="container" id="project">
 			<section class="row">
 				<div id="project1"class="col-sm-4 col-lg-4" class="img-responsive">
-					<img src="images/mobile.jpg" alt="world bank"><h5>The world bank have shown much intrest in supporting innovative ICT solutions in Africa especially working closely with the Kenyan Goverment click to read more info</h5>
+					<img src="images/mobile.gif" alt="world bank"><h5>JavaScript full stack developer using Angular, Node/Mongo  and Agile Software Development environment;with a passion for mobile-first single page web applications. Skillset: Front End HTML5,..</h5>
 
 					<a href="#"></a>
 
 
 				</div>
-				<div class="col-sm-4 col-lg-4" class="img-responsive">
-					<img src="images/drone.jpg" alt="Kenya Army Latest Acquired Drones">
+				<div class="col-sm-4 col-lg-4">
+					<img src="images/drone.jpg" class="img-responsive" alt="Kenya Army Latest Acquired Drones"><h5>Being a full-stack developer means to have an open mind towards new technologies, having your hands dirty in each one and to have an understanding of how a web application gets done from a concept to design to the finished product.</h5>
 
 					<a href="#"></a>
 
 					
 				</div>
-				<div class="col-sm-4 col-lg-4" class="img-responsive">
-					<img src="images/happy.jpg" alt="Go pro sire redesinged">
+				<div class="col-sm-4 col-lg-4">
+					<img src="images/happy.jpg" class="img-responsive" alt="Go pro sire redesinged"><h5>I'm developing sites using PHP, Javascript (jQuery) and MySQL. Prefer Jquery Framework. Familiar with such services as Amazon payments, Google Checkout, Adobe Content Server.</h5>
 
 					<a href="#"></a>
 					
 				</div>
-
 
 
 			</section>
+
+<h2 class="text-center">Profile </h2>
+
+           <section id="row"> <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">BIOGRAPHY</a></li>
+    <li><a href="#tabs-2">NAI SILICON VALLEY</a></li>
+    <li><a href="#tabs-3">GOVERMENT INITIATIVES</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Living, loving and learning Nairobi Kenya . Owner & creator at GoldSmart, Director of Community Operations at The Tech Hub.
+
+I'm addicted to travel, Githeri.I believe in the power of kindness, being grateful, and the oxford comma. Cats, sunsets, and clever emoji usage never fail to make me smile. More?.Nairobi capital is a stunning place of age-old history and monuments that meet the eye with awe and wonder. Less obvious, perhaps, is the quickly growing ecosystem of technology and creative work. As one founder noted in 2012, the startup scene is “exploding faster than a tomato in Fruit Ninja.” Turns out these folks are putting out much more than some of the world’s best pasta plates. So what’s Rome’s digital life like? Here are some observations and learnings after an escape from the San Francisco startup scene to a summer of freelancing in the Eternal city.</p>
+  </div>
+  <div id="tabs-2">
+    <p>I’ll admit, the growing digital and tech scene feels a little bit secret as it can be easily lost among the Tech community and obvious draws to the city. There are certainly Technological  aspects that make Nairobi feel different than other well-known tech hubs like Silicon Valley. For example, Kenyans Trust and bealive much in themselves  than  in fin tech applications (many people now  pay bills online or exchange money using technology) and many interest in on-demand apps or the gig economy. Let’s just say that getting to work looks a bit different, with smartly-dressed professionals whizzing by on neck tais and driving themselves in cute little cars like a Smart or the Fiat 500. Other things, like an engineer’s growing stomach (as a result of long hours at the office) seem to be universal. “The more tummy, the more skill”, I was told over a huge, late night pizza..</p>
+  </div>
+  <div id="tabs-3">
+    <p>The Government of Kenya today reaffirmed its commitment to fight Cyber Crime during a conference in Nairobi organized by COMESA member states. The meeting attended by 17 members of COMESA
+
+</p>
+  </div>
+</div></section>
+
+        <section>
+			<footer class="row">
+
+        <h2 class="text-center">Contact Us</h2>
+
+				<div class="col-sm-6">
+				<form class="col-sm-6" id="contact-form" action="/" method="post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Full name</label>
+    <input type="text" name="fullname" class="form-control" id="exampleInputFullName1" placeholder="Full Name">
+  </div>
+
+  <div class"textarea">
+    <label for="exampleInputComment">Leave Comment</label>
+    <textarea type="text" name="leavecomment" class="textarea" id="exampleInputComment" rows="4" placeholder="Comment"></textarea>
+
+  </div><br>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+</section>
+
+          <section>
+
+            <div class="col-sm-3 col-lg-3">
+          <a href="https://twitter.com/paulcassidy11"><img src="images/twitter.png" class="img-responsive" alt="Go pro sire redesinged"><h5>Follow Me On Twitter</h5>
+
+          <a href="#"></a>
+          
+        </div>
+
+          <div class="col-sm-3 col-lg-3">
+          <a href="https://www.linkedin.com/?trk=nav_logo"><img src="images/linkedin.png" class="img-responsive" alt="Go pro sire redesinged"><h5>Follow Me On Linkedin</h5>
+
+          <a href="#"></a>
+          
+        </div>
+
+        <div class="col-sm-3 col-lg-3">
+          <a href="https://mail.google.com/mail/u/0/#inbox"><img src="images/gmail.png" class="img-responsive" alt="Go pro sire redesinged"><h5>Follow Me On gmail</h5>
+
+          <a href="#"></a>
+          
+        </div>
+
+        <div class="col-sm-3 col-lg-3">
+           <a href="https://secure.skype.com/portal/overview"><img src="images/skype.png" class="img-responsive" alt="Follow me on skype"></a>
+
+          <a href="#"></a>
+          
+        </div>
+        </section>
+</footer>
+
 			<script src="jquery-1.11.3.js"></script>
+          <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
 		<script src="bootstrap-3.3.5-dist/js/jquerywork.js"></script>
+
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
 	</body>
 </html>
